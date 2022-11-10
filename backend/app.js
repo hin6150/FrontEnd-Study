@@ -6,29 +6,9 @@ var logger = require('morgan')
 
 var indexRouter = require('./routes/index')
 var usersRouter = require('./routes/users')
+var dataRouter = require('./routes/data')
 
 var app = express()
-// //추가한 부분
-// var mysql = require('mysql')
-// // Connection 객체 생성
-// var connection = mysql.createConnection({
-//   host: 'localhost',
-//   port: 3306,
-//   user: 'root',
-//   password: '9808',
-//   database: 'testdb'
-// })
-
-// // Connect
-// connection.connect(function (err) {
-//   if (err) {
-//     console.error('mysql connection error')
-//     console.error(err)
-//     throw err
-//   } else {
-//     console.log('app.js connected')
-//   }
-// })
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'))
@@ -41,8 +21,9 @@ app.use(cookieParser())
 app.use(express.static(path.join(__dirname, 'public')))
 
 app.use('/', indexRouter)
-app.use('/users', usersRouter)
-// app.use('/api/users', usersRouter)
+// app.use('/users', usersRouter)
+app.use('/api/users', usersRouter)
+app.use('/api/data', dataRouter)
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

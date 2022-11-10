@@ -4,6 +4,7 @@ const bcrypt = require('bcryptjs')
 
 //추가한 부분
 var mysql = require('mysql')
+
 // Connection 객체 생성
 var connection = mysql.createConnection({
   host: 'localhost',
@@ -12,6 +13,7 @@ var connection = mysql.createConnection({
   password: '9808',
   database: 'testdb'
 })
+
 // Connect
 connection.connect(function (err) {
   if (err) {
@@ -19,7 +21,7 @@ connection.connect(function (err) {
     console.error(err)
     throw err
   } else {
-    console.log('users.js connected')
+    console.log('testdb connected')
   }
 })
 
@@ -62,7 +64,7 @@ router.post('/signUp', function (req, res) {
         )
         res.json({
           success: true,
-          message: 'Sing Up Success!'
+          message: 'Sign Up Success!'
         })
       } else {
         res.json({
