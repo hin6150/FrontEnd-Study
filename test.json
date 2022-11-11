@@ -1,0 +1,96 @@
+{
+  "IotVdata005": {
+    "list_total_count": 43056,
+    "RESULT": {
+      "CODE": "INFO-000",
+      "MESSAGE": "정상 처리되었습니 다"
+    },
+    "row": [
+      {
+        "ORGAN_NM": "마포구",
+        "TRNSMIT_SERVER_NO": 97.0,
+        "DATA_NO": 1.0,
+        "COLUMN0": "AirGuard-K",
+        "COLUMN1": "V01G1613635",
+        "COLUMN2": "202206051305",
+        "COLUMN3": "1260",
+        "COLUMN4": "40",
+        "COLUMN5": "47",
+        "COLUMN6": "46",
+        "COLUMN7": "345",
+        "COLUMN8": "845",
+        "COLUMN9": "34",
+        "COLUMN10": "62",
+        "REGIST_DT": "2022-11-10 21:58:44.0"
+      },
+      {
+        "ORGAN_NM": "마포구",
+        "TRNSMIT_SERVER_NO": 97.0,
+        "DATA_NO": 1.0,
+        "COLUMN0": "AirGuard-K",
+        "COLUMN1": "V01G1613637",
+        "COLUMN2": "202208182255",
+        "COLUMN3": "1250",
+        "COLUMN4": "67",
+        "COLUMN5": "6",
+        "COLUMN6": "38",
+        "COLUMN7": "574",
+        "COLUMN8": "427",
+        "COLUMN9": "4",
+        "COLUMN10": "65",
+        "REGIST_DT": "2022-11-10 21:58:44.0"
+      },
+      {
+        "ORGAN_NM": "마포구",
+        "TRNSMIT_SERVER_NO": 97.0,
+        "DATA_NO": 1.0,
+        "COLUMN0": "AirGuard-K",
+        "COLUMN1": "V01G1613628",
+        "COLUMN2": "202211102155",
+        "COLUMN3": "1279",
+        "COLUMN4": "33",
+        "COLUMN5": "66",
+        "COLUMN6": "60",
+        "COLUMN7": "671",
+        "COLUMN8": "398",
+        "COLUMN9": "48",
+        "COLUMN10": "56",
+        "REGIST_DT": "2022-11-10 21:58:43.0"
+      },
+      {
+        "ORGAN_NM": "마포구",
+        "TRNSMIT_SERVER_NO": 97.0,
+        "DATA_NO": 1.0,
+        "COLUMN0": "AirGuard-K",
+        "COLUMN1": "V01G1613634",
+        "COLUMN2": "202211102155",
+        "COLUMN3": "1250",
+        "COLUMN4": "37",
+        "COLUMN5": "22",
+        "COLUMN6": "36",
+        "COLUMN7": "665",
+        "COLUMN8": "126",
+        "COLUMN9": "16",
+        "COLUMN10": "68",
+        "REGIST_DT": "2022-11-10 21:58:43.0"
+      },
+      {
+        "ORGAN_NM": "마포구",
+        "TRNSMIT_SERVER_NO": 97.0,
+        "DATA_NO": 1.0,
+        "COLUMN0": "AirGuard-K",
+        "COLUMN1": "V01G1613633",
+        "COLUMN2": "202208062345",
+        "COLUMN3": "1253",
+        "COLUMN4": "76",
+        "COLUMN5": "11",
+        "COLUMN6": "55",
+        "COLUMN7": "489",
+        "COLUMN8": "191",
+        "COLUMN9": "8",
+        "COLUMN10": "61",
+        "REGIST_DT": "2022-11-10 21:58:43.0"
+      }
+    ]
+  }
+}
