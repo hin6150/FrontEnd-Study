@@ -13,30 +13,28 @@ function List() {
   ]);
   const [liked, setLiked] = useState([0, 0, 0]);
 
-  const printList = listArry.map((list, idx) => (
-    <div key={idx}>
-      <div css={divStyle}>
-        <h4>
-          {list}
-          <span
-            onClick={() => {
-              liked[idx] += 1;
-              setLiked([...liked]);
-            }}
-          >
-            👍
-          </span>
-          {liked[idx]}
-        </h4>
-        <p>2월 17일 발행</p>
-      </div>
-      <hr></hr>
-    </div>
-  ));
-
   return (
     <div>
-      {printList}
+      {listArry.map((list, idx) => (
+        <div key={idx}>
+          <div css={divStyle}>
+            <h4>
+              {list}
+              <span
+                onClick={() => {
+                  liked[idx] += 1;
+                  setLiked([...liked]);
+                }}
+              >
+                👍
+              </span>
+              {liked[idx]}
+            </h4>
+            <p>2월 17일 발행</p>
+          </div>
+          <hr></hr>
+        </div>
+      ))}
       <button
         onClick={() => {
           const copy = [...listArry];
