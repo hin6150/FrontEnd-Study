@@ -1,0 +1,11 @@
+.title {
+  display: flex;
+  background-color: black;
+  color: white;
+}
+.title h4 {
+  margin-left: 20px;
+}
+.App {
+  text-align: left;
+}
