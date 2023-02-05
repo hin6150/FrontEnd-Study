@@ -1,5 +1,6 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 import "./App.css";
+import AutoLayoutExample from "./components/AutoLayoutExample";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
           </Nav>
         </Container>
       </Navbar>
+
+      <div className="main-bg"></div>
+      <AutoLayoutExample />
     </div>
   );
 }
