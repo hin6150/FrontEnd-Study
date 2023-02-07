@@ -1,8 +1,11 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
+import { Outlet, Route, Routes, useNavigate } from "react-router-dom";
 import "./App.css";
 import AutoLayoutExample from "./components/AutoLayoutExample";
+import Detail from "./components/Detail";
 
 function App() {
+  let navigate = useNavigate();
   return (
     <div className="App">
       <Navbar bg="dark" variant="dark">
@@ -16,8 +19,18 @@ function App() {
         </Container>
       </Navbar>
 
-      <div className="main-bg"></div>
-      <AutoLayoutExample />
+      <Routes>
+        <Route path="/detail" element={<Detail/>}></Route>
+        <Route
+          path="/"
+          element={
+            <>
+              <div className="main-bg"></div>
+              <AutoLayoutExample />
+            </>
+          }
+        ></Route>
+      </Routes>
     </div>
   );
 }
