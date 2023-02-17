@@ -1,21 +1,24 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { useNavigate, useParams } from "react-router-dom";
+import { addCart } from "../Store";
+import TabComponents from "./TabComponents";
 
 function Detail(props) {
+  const navigate = useNavigate();
+
+  let a = useSelector((state) => state.cart);
+  let dispatch = useDispatch();
+
   const { id } = useParams();
   const [display, setDisplay] = useState(true);
-  const [input, setInput] = useState();
+  const [tab, setTab] = useState();
 
-  function setValue(e) {
-    setInput(e.target.value);
-  }
   useEffect(() => {
     setTimeout(() => {
       setDisplay(false);
     }, 2000);
   }, []);
-  useEffect(() => {}, [input]);
-
   let shoe = {
     id: -1,
     title: "",
@@ -37,7 +40,6 @@ function Detail(props) {
       {display ? (
         <div className="alert alert-warning">2초 이내 구매시 할인</div>
       ) : null}
-      <input onChange={this.setValue()}></input>
       <div className="row">
         <div className="col-md-6">
           <img
@@ -54,9 +56,18 @@ function Detail(props) {
           <h4 className="pt-5">{shoe.title}</h4>
           <p>{shoe.content}</p>
           <p>{shoe.price}</p>
-          <button className="btn btn-danger">주문하기</button>
+          <button
+            className="btn btn-danger"
+            onClick={() => {
+              dispatch(addCart(shoe));
+              navigate("/cart");
+            }}
+          >
+            주문하기
+          </button>
         </div>
       </div>
+      <TabComponents tab={tab} setTab={setTab}></TabComponents>
     </div>
   );
 }
