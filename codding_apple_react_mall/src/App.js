@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Outlet, Route, Routes, useNavigate } from "react-router-dom";
 import "./App.css";
@@ -7,12 +7,25 @@ import Detail from "./components/Detail";
 import DataList from "./data/ProductDataList";
 import axios from "axios";
 import Cart from "./components/Cart";
+import { useQuery } from "@tanstack/react-query";
 
 function App() {
   const [productList, setProductList] = useState(DataList);
   const [buttonText, setButtonText] = useState("더보기");
 
   const navigate = useNavigate();
+
+  let result = useQuery("query", () => {
+    return axios
+      .get("https://codingapple1.github.io/userdata.json")
+      .then((a) => {
+        return a.data;
+      });
+  });
+
+  useEffect(() => {
+    localStorage.setItem("watched", JSON.stringify([]));
+  }, []);
 
   return (
     <div className="App">
@@ -29,7 +42,7 @@ function App() {
             </Nav.Link>
             <Nav.Link
               onClick={() => {
-                navigate("detail");
+                navigate("detail/0");
               }}
             >
               Detail
@@ -40,6 +53,16 @@ function App() {
               }}
             >
               Cart
+            </Nav.Link>
+            <Nav.Link
+              className="ms-auto"
+              style={{
+                color: "white",
+                position: "absolute",
+                right: "0",
+              }}
+            >
+              반가워요 kim
             </Nav.Link>
           </Nav>
         </Container>

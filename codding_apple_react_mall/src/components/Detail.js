@@ -18,6 +18,11 @@ function Detail(props) {
     setTimeout(() => {
       setDisplay(false);
     }, 2000);
+    let a = localStorage.getItem("watched");
+    let data = JSON.parse(a);
+    data.push(id);
+    let uniq = [...new Set(data)];
+    localStorage.setItem("watched", JSON.stringify(uniq));
   }, []);
   let shoe = {
     id: -1,
@@ -31,6 +36,7 @@ function Detail(props) {
   //     shoe = data;
   //   }
   // });
+
   shoe = props.productList.find((data) => {
     return data.id === Number(id);
   });
