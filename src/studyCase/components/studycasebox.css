@@ -1,0 +1,33 @@
+.buttonbox {
+    width: 196px;
+    height: 66px;
+    flex-shrink: 0;
+    background-color:#FFFFFF;
+    border:none;
+    border-radius: 5px;
+}
+.kyan{
+    color: #333;
+    font-size: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+}
+.content{
+    display: flex;
+    width: 285px;
+    height: 88px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #858A8F;
+    font-size: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+.image,.image1{
+    flex-shrink: 0;
+    background:lightgray 0px 0px / 100% 100% no-repeat;
+}

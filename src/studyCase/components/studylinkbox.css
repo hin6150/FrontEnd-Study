@@ -1,0 +1,23 @@
+.rectangle{
+    width: 392px;
+    height: 607px;
+    flex-shrink: 0;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
+.boxbutton{
+    width: 196px;
+    height: 66px;
+    flex-shrink: 0;
+    background-color: #FFFFFF;
+    border:none;
+    border-radius: 5px;
+}
+.image,.image1{
+    flex-shrink: 0;
+    background:lightgray 0px 0px / 100% 100% no-repeat;
+}
+.icon{
+    flex-shrink: 0;
+}

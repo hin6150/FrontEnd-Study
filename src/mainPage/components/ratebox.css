@@ -1,0 +1,43 @@
+.box{
+    width: 392px;
+    height: 386px;
+    flex-shrink: 0;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.image{
+    flex-shrink: 0;
+    background: lightgray 0px 0px / 100% 100% no-repeat;
+}
+.p{
+    color: #333;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+.p1{
+    color: #858A8F;
+    font-size: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+}
+.p2{
+    display: flex;
+    width: 317px;
+    height: 138px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #858A8F;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+}
+.star{
+    flex-shrink: 0;
+}

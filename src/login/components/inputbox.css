@@ -1,0 +1,17 @@
+.rectangle{
+    width: 453px;
+    height: 64px;
+    flex-shrink: 0;
+    color:#F5F6FA;
+}
+.image{
+    flex-shrink: 0;
+}
+.content{
+    color: #AAB0B7;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}

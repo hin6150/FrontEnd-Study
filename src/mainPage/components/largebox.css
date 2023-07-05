@@ -1,0 +1,75 @@
+.h1{
+    display: flex;
+    width: 562px;
+    height: 219px;
+    flex-direction: column;
+    flex-shrink: 0; 
+    color: #333;
+    font-size: 60px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73px;
+}
+.p {
+    display: flex;
+    width: 443px;
+    height: 96px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #858A8F;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+}
+.image {
+    flex-shrink: 0;
+}
+.box{
+    width: 392px;
+    height: 135px;
+    flex-shrink: 0;
+    background-color: #FFFFFF;
+    border: none;
+}
+.icon{
+    flex-shrink: 0;
+}
+.p1{
+    color: #858A8F;
+    font-size: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+}
+.p2{
+    color: #858A8F;
+    font-size: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    color: #333;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+.button{
+    width: 212px;
+    height: 66px;
+    flex-shrink: 0;
+    background-color: #377DFF;
+    border:none;
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}

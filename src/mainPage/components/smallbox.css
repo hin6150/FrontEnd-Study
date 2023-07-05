@@ -1,0 +1,31 @@
+.box{
+    width: 286px;
+    height: 330px;
+    flex-shrink: 0;
+    background-color: #FFFFFF;
+    border:none;
+}
+.icon{
+    flex-shrink: 0;
+}
+.p{
+    color: #333;
+    font-size: 26px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+}
+.p1{
+    display: flex;
+    width: 233px;
+    height: 114px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #858A8F;
+    font-size: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
