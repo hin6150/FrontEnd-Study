@@ -1,21 +1,14 @@
 import React from 'react';
+import './largebox.css';
 
 const LargeBox = () => {
   return (
-    <div>
-      <div className="image">image</div>
-      <h1 className="h1">h1</h1>
-      <p className="p">p</p>
-      <button className="button">button</button>
-      <div>
-        <div className="box">box</div>
-        <img className="image" alt="Nothing" src="img/Image-18.png" width="1024px" height="682px"></img>
-        <div className="block">
-          <img className="icon" alt="Nothing" src="img/icon-2.png" width="392px" height="135px"></img>
-          <p className="p1">p</p>
-          <p className="p2">p</p>
-        </div>
+    <div className="main-block">
+      <div className="icon-wrapper">
+        <img className="icon-image" alt="Nothing" src="img/icon-6.png" width="392px" height="135px"></img>
       </div>
+      <h1>End-to-End</h1>
+      <h2>Our messenger uses only proven technologies. There fore, no one will read your messages.</h2>
     </div>
   );
 };
