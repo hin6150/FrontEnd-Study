@@ -10,10 +10,10 @@ const Footer = () => {
           <p className="p">
             Move - Multipurpose Design<br></br>Template will help you<br></br> develop your website design.
           </p>
-          <img className="icon1" src="C:\Users\User\Desktop\Dribbble.png" width="49.69px" height="46.725px" />
-          <img className="icon2" src="C:\Users\User\Desktop\Facebook.png" width="49.69px" height="46.725px" />
-          <img className="icon3" src="C:\Users\User\Desktop\Twitter.png" width="49.69px" height="46.725px" />
-          <img className="icon4" src="C:\Users\User\Desktop\YouTube.png" width="49.69px" height="46.725px" />
+          <img className="icon1" src="src\assets\Dribbble.png" width="49.69px" height="46.725px" />
+          <img className="icon2" src="src\assets\Facebook.png" width="49.69px" height="46.725px" />
+          <img className="icon3" src="src\assets\Twitter.png" width="49.69px" height="46.725px" />
+          <img className="icon4" src="src\assets\YouTube.png" width="49.69px" height="46.725px" />
         </div>
         <div className="box2">
           <p className="home">Home</p>

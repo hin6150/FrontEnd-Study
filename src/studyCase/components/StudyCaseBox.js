@@ -3,10 +3,10 @@ import React from 'react';
 const StudyCaseBox = () => {
   return (
     <div style={{ display: 'flex', justifyContent: 'space-around' }}>
-      <img className="image" src="C:\Users\User\Desktop\Image-51.png" width="458px" height="305px"></img>
+      <img className="image" src="src\assets\Image-51.png" width="458px" height="305px"></img>
       <div className="buttonbox">
         <button className="button">
-          <img className="image1" src="C:\Users\User\Desktop\kyan.png" width="100px" height="36px"></img>
+          <img className="image1" src="src\assets\kyan.png" width="100px" height="36px"></img>
         </button>
       </div>
       <br></br>

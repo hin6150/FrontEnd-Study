@@ -4,9 +4,9 @@ const StudyLinkBox = () => {
   return (
     <div className="rectangle">
       <div className="image-container">
-        <img className="image" src="C:\Users\User\Desktop\Image-39.png" width="472px" height="315px"></img>
+        <img className="image" src="src\assets\Image-39.png" width="472px" height="315px"></img>
         <button className="boxbutton">
-          <img className="image1" src="C:\Users\User\Desktop\slack.png" width="133px" height="34px" />
+          <img className="image1" src="src\assets\slack.png" width="133px" height="34px" />
         </button>
       </div>
       <p className="p">Slack</p>
@@ -15,7 +15,7 @@ const StudyLinkBox = () => {
       </p>
       <div className="button">
         <button className="readstory">Read story</button>
-        <img className="icon" src="C:\Users\User\Desktop\icon-arrow-right-3.png" width="19.856px" height="19.456px" />
+        <img className="icon" src="src\assets\icon-arrow-right-3.png" width="19.856px" height="19.456px" />
       </div>
       StudyLinkBox
     </div>
