@@ -1,17 +1,23 @@
-.rectangle{
+.account-rectangle{
     width: 453px;
     height: 64px;
+    display: flex;
+    align-items: center;
     flex-shrink: 0;
-    color:#F5F6FA;
+    border: 2px solid #F5F6FA;
 }
-.image{
-    flex-shrink: 0;
+.account-image{
+    width: 28px;
+    height: 28px;
 }
-.content{
+.account-content{
+    width:130px;
+    margin-left: 10px;
     color: #AAB0B7;
     font-size: 20px;
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
+    border:none;
 }
