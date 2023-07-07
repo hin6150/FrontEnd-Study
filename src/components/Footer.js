@@ -2,6 +2,7 @@
 import React from 'react';
 import './footer.css';
 import { css } from '@emotion/react';
+import { Image } from './components';
 
 const Footer = () => {
   const textList = [
@@ -27,17 +28,16 @@ const Footer = () => {
     </div>
   );
 };
-const ImageBox = ({ src, width, height }) => <img src={`img/${src}.png`} width={width} height={height} />;
 
 const CategoryLargeBox = () => (
   <div className="category-large-box">
     <h2>Move</h2>
     <p>Move - Multipurpose Design Template will help you develop your website design.</p>
     <div className="category-icon-box">
-      <ImageBox src="Dribbble" width="50px" height="47px" />
-      <ImageBox src="Facebook" width="50px" height="47px" />
-      <ImageBox src="Twitter" width="50px" height="47px" />
-      <ImageBox src="YouTube" width="50px" height="47px" />
+      <Image src="Dribbble" width="50px" height="47px" />
+      <Image src="Facebook" width="50px" height="47px" />
+      <Image src="Twitter" width="50px" height="47px" />
+      <Image src="YouTube" width="50px" height="47px" />
     </div>
     <div className="category-copylight">© 2019-2020 Wave Multipurpose Design Template.</div>
   </div>

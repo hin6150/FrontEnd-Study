@@ -1,28 +1,32 @@
-.box{
-    width: 286px;
-    height: 330px;
-    background-color: red;
+.small-box{
+    position: relative;
+    width: 392px;
+    height: 135px;
     border:none;
+    border-radius: 20px;
+    display: flex;
+    gap: 25px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 60px 50px rgba(67, 67, 68, 0.11);
+}
+.small-box .icon, .small-box .text{
+    margin: auto 0;
 }
 
-.p{
-    color: #333;
-    font-size: 26px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 31px;
-}
-.p1{
-    display: flex;
-    width: 233px;
-    height: 114px;
-    flex-direction: column;
-    flex-shrink: 0;
+.small-box .text span{
     color: #858A8F;
-    font-size: 18px;
     font-family: Inter;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
+    line-height: 22px;
+}
+.small-box .text h2{
+    color: #333;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
     line-height: 30px;
 }
