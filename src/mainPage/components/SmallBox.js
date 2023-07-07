@@ -6,7 +6,7 @@ const SmallBox = () => {
   return (
     <div className="small-box">
       <div className="icon">
-        <Image src="icon-6" width="80px" height="80px" />
+        <Image src="icon-2" width="80px" height="80px" />
       </div>
       <div className="text">
         <span>Notification</span>
