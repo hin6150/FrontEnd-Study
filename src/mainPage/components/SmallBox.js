@@ -1,10 +1,11 @@
 import React from 'react';
+import './smallbox.css';
 
 const SmallBox = () => {
   return (
-    <div>
-      <div className="box">SmallBox</div>
-      <img className="icon" src="src\assets\icon-6.png" width="286px" height="330px"></img>
+    <div className="box">
+      <div>SmallBox</div>
+      <img className="icon" src="img/icon-6.png" width="80px" height="80px" />
       <p className="p">p</p>
       <p className="p1">p</p>
     </div>

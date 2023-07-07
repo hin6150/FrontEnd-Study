@@ -1,13 +1,10 @@
 .box{
     width: 286px;
     height: 330px;
-    flex-shrink: 0;
-    background-color: #FFFFFF;
+    background-color: red;
     border:none;
 }
-.icon{
-    flex-shrink: 0;
-}
+
 .p{
     color: #333;
     font-size: 26px;

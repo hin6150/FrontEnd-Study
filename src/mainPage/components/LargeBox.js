@@ -9,9 +9,9 @@ const LargeBox = () => {
       <button className="button">button</button>
       <div>
         <div className="box">box</div>
-        <img className="image" alt="Nothing" src="src\assets\Image-18.png" width="1024px" height="682px"></img>
+        <img className="image" alt="Nothing" src="img/Image-18.png" width="1024px" height="682px"></img>
         <div className="block">
-          <img className="icon" alt="Nothing" src="src\assets\icon-2.png" width="392px" height="135px"></img>
+          <img className="icon" alt="Nothing" src="img/icon-2.png" width="392px" height="135px"></img>
           <p className="p1">p</p>
           <p className="p2">p</p>
         </div>
