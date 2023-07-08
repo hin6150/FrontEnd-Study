@@ -1,14 +1,23 @@
 import React from 'react';
+import './ratebox.css';
 
 const RateBox = () => {
   return (
-    <div>
-      <div className="box">RateBox</div>
-      <img className="image" src="img/Image-8.png" width="263px" height="395px"></img>
-      <p className="p">p</p>
-      <p className="p1">p</p>
-      <p className="p2">p</p>
-      <img className="star" src="imgIcon_Star-2.png" width="222.951px" height="42.951px"></img>
+    <div className="rate-block">
+      <div className="rate-content">
+        <img className="rate-image" src="img/Image-8.png" width="50px" height="50px" alt="" />
+        <div>
+          <h1>Alpamys Moldashev</h1>
+          <h2>Graphic Designer</h2>
+        </div>
+      </div>
+      <div className="rate-bottom">
+        <h3>
+          With the Move messenger I can correspond with clients from all over the world and never forget about important
+          meetings.
+        </h3>
+        <img className="rate-icon" src="img/Icon_Star-2.png" width="222.951px" height="42.951px" alt="" />
+      </div>
     </div>
   );
 };
