@@ -1,33 +1,47 @@
-.buttonbox {
+.casebox-container{
+    display: flex;
+}
+.casebox-image{
+    background: lightgray 0px 0px / 100% 100% no-repeat;
+    border-radius: 10px;
+}
+.casebox-content {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 40px;
+  }
+.buttonbox{
+    margin-right: 20px;
+}
+.casebutton{
     width: 196px;
     height: 66px;
-    flex-shrink: 0;
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
     border:none;
     border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-.kyan{
+h1{
     color: #333;
-    font-size: 24px;
     font-family: Inter;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 29px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-.content{
+h2{
     display: flex;
     width: 285px;
     height: 88px;
     flex-direction: column;
     flex-shrink: 0;
     color: #858A8F;
-    font-size: 18px;
     font-family: Inter;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 30px;
-}
-.image,.image1{
-    flex-shrink: 0;
-    background:lightgray 0px 0px / 100% 100% no-repeat;
 }
