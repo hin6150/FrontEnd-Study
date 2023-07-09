@@ -1,23 +1,21 @@
 import React from 'react';
+import './studylinkbox.css';
 
 const StudyLinkBox = () => {
   return (
-    <div className="rectangle">
-      <div className="image-container">
-        <img className="image" src="img/Image-39.png" width="472px" height="315px"></img>
-        <button className="boxbutton">
-          <img className="image1" src="img/slack.png" width="133px" height="34px" />
+    <div className="studylink-rectangle">
+      <div className="studylink-content">
+        <button className="studylink-logo">
+          <img className="studylink-slack" src="img/slack.png" width="133px" height="34px" alt="" />
         </button>
+        <img className="studylink-image" src="img/Image-39.png" width="392px" height="300px" alt="" />
       </div>
-      <p className="p">Slack</p>
-      <p className="p1">
-        Think about how many people and<br></br> different companies our corporate<br></br> messenger brings together.
-      </p>
-      <div className="button">
+      <h1>Slack</h1>
+      <h2>Think about how many people and different companies our corporate messenger brings together.</h2>
+      <div>
         <button className="readstory">Read story</button>
-        <img className="icon" src="img/icon-arrow-right-3.png" width="19.856px" height="19.456px" />
+        <img className="studylink-icon" src="img/icon-arrow-right-3.png" width="19px" height="19px" alt="" />
       </div>
-      StudyLinkBox
     </div>
   );
 };
