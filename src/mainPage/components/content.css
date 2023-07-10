@@ -1,0 +1,40 @@
+h1{
+    display: flex;
+    width: 489px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #333;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73px;
+}
+h2{
+    display: flex;
+    width: 440px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #858A8F;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    margin-top: 20px;
+}
+.content-button{
+    width: 212px;
+    height: 66px;
+    flex-shrink: 0;
+    background-color: #377DFF;
+    border:none;
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top:20px;
+}
