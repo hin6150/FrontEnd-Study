@@ -22,7 +22,7 @@
     margin-top: 15px;
     margin-bottom: 15px;
 }
-h1{
+.buttonbox h1{
     color: #333;
     font-family: Inter;
     font-size: 24px;
@@ -32,7 +32,7 @@ h1{
     margin-top: 15px;
     margin-bottom: 15px;
 }
-h2{
+.buttonbox h2{
     display: flex;
     width: 285px;
     height: 88px;

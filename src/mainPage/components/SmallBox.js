@@ -11,13 +11,9 @@ const SmallBox = () => {
         </div>
         <div className="text">
           <span>Notification</span>
-          <h2>
-            Try the messenger <br />
-            features!
-          </h2>
+          <h2>Try the messenger features!</h2>
         </div>
       </div>
-      <img className="smallbox-image" alt="" src="img/Image-18.png" width="600px" height="500px" />
     </div>
   );
 };

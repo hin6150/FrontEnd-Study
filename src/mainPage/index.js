@@ -3,6 +3,7 @@ import Button from './components/Button';
 import LargeBox from './components/LargeBox';
 import RateBox from './components/RateBox';
 import SmallBox from './components/SmallBox';
+import Content from './components/Content';
 
 const index = () => {
   return (
@@ -12,6 +13,7 @@ const index = () => {
       <LargeBox></LargeBox>
       <RateBox></RateBox>
       <SmallBox></SmallBox>
+      <Content />
     </div>
   );
 };

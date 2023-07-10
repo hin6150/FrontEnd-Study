@@ -1,4 +1,4 @@
-h1{
+.text-content h1{
     display: flex;
     width: 489px;
     flex-direction: column;
@@ -10,7 +10,7 @@ h1{
     font-weight: 700;
     line-height: 73px;
 }
-h2{
+.text-content h2{
     display: flex;
     width: 440px;
     flex-direction: column;
