@@ -1,7 +1,8 @@
 import React from 'react';
+import './button.css';
 
 const Button = () => {
-  return <div>Button</div>;
+  return <button className="account-button">Create my account</button>;
 };
 
 export default Button;
